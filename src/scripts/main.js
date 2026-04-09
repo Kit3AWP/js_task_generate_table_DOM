@@ -375,6 +375,6 @@ people.forEach((person) => {
 
     td.textContent = value;
     tr.append(td);
-    table.append(tr);
   });
+  table.append(tr);
 });
