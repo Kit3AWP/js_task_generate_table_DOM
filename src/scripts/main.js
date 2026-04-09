@@ -363,7 +363,7 @@ people.forEach((person) => {
   const tr = document.createElement('tr');
   const values = [
     person.name,
-    person.sex,
+    person.sex === 'm' ? 'Male' : 'Female',
     person.born,
     person.died,
     person.died - person.born,
